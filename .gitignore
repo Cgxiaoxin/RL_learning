@@ -1,5 +1,19 @@
-# Object file
-*.o
-
-# Ada Library Information
-*.ali
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+logs/
+wandb/
+runs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.mp4
+*.webm
